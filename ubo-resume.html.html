@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Resume/CV Design</title>
 	<link rel="stylesheet" href="css/resume.css">
+  <link rel="stylesheet" href="css/responsive.css">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
   <link rel="stylesheet" href="https://use.typekit.net/rwu4bex.css">
 </head>
@@ -11,13 +12,13 @@
 
 <div class="resume">
    <div class="resume_left">
-     <div class="resume_profile">
-       <img src="C:\Users\Administrator\Desktop\Lemarechal_cours\Semaine_03\MonCV\me.jpeg" alt="profile_pic">
+     <div class="resume_profile" itemscope itemtype="https://schema.org/Person">
+       <img src="C:\Users\Administrator\Desktop\Lemarechal_cours\Semaine_03\MonCV\me.jpeg" itemprop="image" alt="profile_pic">
      </div>
      <div class="resume_content">
        <div class="resume_item resume_info">
-         <div class="title">
-           <p class="bold">Karima kandil</p>
+         <div class="title" itemscope itemtype="https://schema.org/Person">
+           <p class="bold" itemprop="name">Karima kandil</p>
            <p class="regular">Developpeur et data scientist</p>
          </div>
          <ul>
@@ -25,7 +26,7 @@
              <div class="icon">
                <i class="fas fa-map-signs"></i>
              </div>
-             <div class="data">
+             <div class="data" itemprop="address">
                2, Rue des archives <br /> Brest,292000
              </div>
            </li>
@@ -33,15 +34,15 @@
              <div class="icon">
                <i class="fas fa-mobile-alt"></i>
              </div>
-             <div class="data">
-               +324 4445678
+             <div class="data" itemprop="telephone">
+               +337 58437656
              </div>
            </li>
            <li>
              <div class="icon">
                <i class="fas fa-envelope"></i>
              </div>
-             <div class="data">
+             <div class="data" itemprop="email">
                karimakandiel@gmail.com
              </div>
            </li>
@@ -49,7 +50,7 @@
              <div class="icon">
                <i class="fab fa-weebly"></i>
              </div>
-             <div class="data">
+             <div class="data" itemprop="url">
                dosen't rxist
              </div>
            </li>
