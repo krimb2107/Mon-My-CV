@@ -24,8 +24,17 @@ body {
 .semi-bold {
   font-weight: 500;
   font-size: 16px;
+ 
 }
+.semi-bold i {
+  float: right;
+  color: #009fd9;
+}
+p.details{
+ display: none; 
+ transition:height 1s ease-out;
 
+}
 .resume {
   width: 800px;
   height: auto;
@@ -117,6 +126,19 @@ body {
 
 .resume .resume_left .resume_skills ul li .skill_name {
   width: 25%;
+  cursor: pointer;
+}
+
+.displayText {
+  z-index: 1000;
+  position: absolute;
+  margin-top: 3%;
+  background-color: #fff;
+  color: #000;
+  text-align: right;
+  border-radius: 6px;
+  padding: 2px 5px; 
+  display: none;
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress {
@@ -232,3 +254,6 @@ body {
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
+
+
+
