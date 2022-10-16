@@ -32,7 +32,7 @@ body {
   color: #009fd9;
 }
 p.details{
- /* display: none;  */
+ display: none; 
  transition:height 1s ease-out;
 
 }
