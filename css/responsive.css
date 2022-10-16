@@ -1,6 +1,6 @@
 @media only screen and (max-width: 700px){
    /* #wrapper{background: #f77;} */
-  body{background:yellow}
+  
   .resume {flex-direction: column}
   .resume .resume_left { width: 100%;}
   .resume .resume_right { width: 100%;} 
@@ -20,7 +20,7 @@
 
 @media only screen and (max-width: 570px){
     /* #wrapper{ background: #7f7;} */
-  body{background:purple}
+ 
   .resume {flex-direction: column;}
   .resume .resume_left .resume_profile {
     width: 55%;
@@ -34,7 +34,7 @@
 }
 
 @media only screen and (max-width: 480px){
-  body{background:red}
+  
   .resume {flex-direction: column;}
   .resume .resume_left .resume_profile {
     width: 100%;
