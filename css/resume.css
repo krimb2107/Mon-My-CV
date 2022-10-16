@@ -32,9 +32,8 @@ body {
   color: #009fd9;
 }
 p.details{
- display: none; 
- transition:height 1s ease-out;
-
+ display: none;
+ transition:all 1s linear;
 }
 /* .resume {
   width: 800px;
@@ -124,15 +123,31 @@ p.details{
   color: #b1eaff;
 }
 
-.resume .resume_left .resume_skills ul li {
+.resume .resume_left .resume_skills ul li{
   display: flex;
   margin-bottom: 10px;
   color: #b1eaff;
   justify-content: space-between;
   align-items: center;
+  
+}
+.resume .resume_left .resume_skills table tbody{
+  display: flex;
+  flex-direction: column;
+  color: #b1eaff;
+
+}
+.resume .resume_left .resume_skills table td
+.resume .resume_left .resume_skills table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.resume .resume_left .resume_skills table td {
+  padding:0 2px 5px 0;
 }
 
-.resume .resume_left .resume_skills ul li .skill_name {
+.resume .resume_left .resume_skills ul li .skill_name,
+.resume .resume_left .resume_skills table tbody .skill_name {
   width: 25%;
   cursor: pointer;
 }
@@ -164,9 +179,9 @@ p.details{
   white-space: nowrap;
   overflow: hidden;
   font-family: FontAwesome;
-   width: 0;
+  width: 0;
+  
 }
-
 .listStar:before {
   content: "\f005 \f005 \f005 \f005 \f005";
   color: #f8ce0b;

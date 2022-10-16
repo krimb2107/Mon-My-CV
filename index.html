@@ -124,59 +124,69 @@
          </ul>
        </div>
        <!-- /*-------------------------------------------------------------*/ -->
-       <!-- <div class="resume_item resume_skills">
+       <div class="resume_item resume_skills">
         <div class="title">
           <p class="bold">Compétences</p>
         </div>
-        <ul>
-          <li>
-            <div class="skill_name" onclick="getMyToolTipFunction('skill1');">
-              HTML
-            </div>
-            <span class="displayText skill1" id="">HyperText Markup Language</span>
-            <div class="container">
-              <span class="listStar"></span>
-            </div>
-          </li>
-          <li>
-            <div class="skill_name" onclick="getMyToolTipFunction('skill2');">
-              CSS
-            </div>
-            <span class="displayText skill2" id="">Cascading Style Sheets</span>
-            <div class="container">
-              <span class="listStar"></span>
-            </div>
-          </li>
-          <li>
-            <div class="skill_name" onclick="getMyToolTipFunction('skill3');">
-              SASS
-            </div>
-            <span class="displayText skill3" id="">Syntactically Awesome Style Sheet</span>
-            <div class="container">
-              <span class="listStar" ></span>
-            </div>
-          </li>
-          <li>
-            <div class="skill_name" onclick="getMyToolTipFunction('skill4');">
-              JS
-            </div>
-            <span class="displayText skill4" id="">JavaScript</span>
-            <div class="container">
-              <span class="listStar"></span>
-            </div>
-          </li>
-          <li>
-            <div class="skill_name" onclick="getMyToolTipFunction('skill5');">
-              JQUERY
-            </div>
-            <span class="displayText skill5" id="">Un framework Javascript</span>
-            <div class="container">
-              <span class="listStar"></span>
-            </div>
-            
-          </li>
-        </ul>
-      </div> -->
+        <table>
+          <tbody>
+            <tr class="skill_name skill1" onclick="getMyToolTipFunction('skill6');">
+             <td>HTML</td>
+             <td>
+              <span class="displayText" id="skill6">HyperText Markup Language</span>
+               <div class="container">
+                 <span class="listStar"></span>
+               </div>
+             </td>
+            </tr>
+            <tr class="skill_name skill2" onclick="getMyToolTipFunction('skill7');">
+              <td>CSS</td>
+             <td>
+              <span class="displayText skill2" id="skill7">Cascading Style Sheets</span>
+               <div class="container">
+                 <span class="listStar"></span>
+               </div>
+             </td>
+            </tr>
+            <tr class="skill_name skill3" onclick="getMyToolTipFunction('skill8');">
+              <td>SASS</td>
+             <td>
+              <span class="displayText skill3" id="skill8">Syntactically Awesome Style Sheet</span>
+               <div class="container">
+                 <span class="listStar"></span>
+               </div>
+             </td>
+            </tr>
+            <tr class="skill_name skill4" onclick="getMyToolTipFunction('skill9');">
+              <td>JS</td>
+             <td>
+              <span class="displayText skill4" id="skill9">JavaScript</span>
+               <div class="container">
+                 <span class="listStar"></span>
+               </div>
+             </td>
+            </tr>
+            <tr class="skill_name skill5" onclick="getMyToolTipFunction('skill10');">
+              <td>JQUERY</td>
+             <td>
+              <span class="displayText skill5" id="skill10">Un framework Javascript</span>
+               <div class="container">
+                 <span class="listStar"></span>
+               </div>
+             </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="resume_item resume_histograme">
+        <div class="title">
+          <p class="bold">Histograme</p>
+        </div>
+        <canvas id="barCanvas" aria-label="chart" role="img">
+
+        </canvas>
+        
+      </div>
        <!-- ----------------------------------------------------------------------------- -->
        <div class="resume_item resume_social">
          <div class="title">
@@ -313,7 +323,7 @@
             </li>
         </ul>
     </div>
-    <div class="resume_item resume_hobby">
+    <!-- <div class="resume_item resume_hobby">
       <div class="title">
            <p class="bold">Loisir</p>
          </div>
@@ -324,9 +334,9 @@
          <li><i class="fab fa-pagelines"></i></li>
       </ul>
     </div>
-  </div>
+  </div> -->
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="text/javascript" src="js/script.js" defer></script>
-<script type="text/javascript" src="jquery-1.12.4.min.js"></script>
 </body>
 </html>
