@@ -119,7 +119,8 @@ p.details{
   transform: translate(-50%, -50%);
 }
 
-.resume .resume_left ul li .data {
+.resume .resume_left ul li .data,
+.resume .resume_left ul li .data a {
   color: #b1eaff;
 }
 

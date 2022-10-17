@@ -18,7 +18,7 @@ function getMyToolTipFunction (id) {
         toolpips[i].style.display = "none";
     }
     popup.style.display="block";
-    setTimeout(getMyToolTipFunction,2000)
+    setTimeout(getMyToolTipFunction,8000)
 }
 
 //-----------exercice 3---------
