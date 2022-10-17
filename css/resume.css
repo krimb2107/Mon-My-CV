@@ -112,7 +112,7 @@ p.details{
 }
 
 .resume .icon i,
-.resume .resume_right .resume_hobby ul li i {
+.resume .resume_right .resume_hobby ul li i  {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -131,23 +131,8 @@ p.details{
   align-items: center;
   
 }
-.resume .resume_left .resume_skills table tbody{
-  display: flex;
-  flex-direction: column;
-  color: #b1eaff;
 
-}
-.resume .resume_left .resume_skills table td
-.resume .resume_left .resume_skills table{
-  border-collapse: collapse;
-  width: 100%;
-}
-.resume .resume_left .resume_skills table td {
-  padding:0 2px 5px 0;
-}
-
-.resume .resume_left .resume_skills ul li .skill_name,
-.resume .resume_left .resume_skills table tbody .skill_name {
+.resume .resume_left .resume_skills ul li .skill_name{
   width: 25%;
   cursor: pointer;
 }
@@ -206,11 +191,15 @@ p.details{
   height: 100%;
   background: #fff;
 }
+.resume .resume_left .resume_histograme {
+  margin-bottom: 3px;
 
+}
 .resume .resume_left .resume_social .semi-bold {
   color: #fff;
   margin-bottom: 3px;
 }
+
 
 .resume .resume_right {
   width: 520px;

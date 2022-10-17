@@ -6,21 +6,27 @@
   .resume .resume_right { width: 100%;} 
   .resume .resume_left .resume_profile {
     width: 55%;
-    height: 50%;
     float: right;
   }
  .bold, .regular {text-align: center;} 
-  .resume .resume_left .resume_skills{display: none;}
+  
   .resume .resume_right .resume_hobby ul li:before {
     width: 195%;
     right: -195%;
   }
+  
+  .resume .resume_left .resume_social ul { display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .resume .resume_left .resume_social ul li{ padding-inline: 1%;}
+
 }
     
 
 @media only screen and (max-width: 570px){
     /* #wrapper{ background: #7f7;} */
- 
+  .resume .resume_left .resume_skills{display: none;}
   .resume {flex-direction: column;}
   .resume .resume_left .resume_profile {
     width: 55%;
